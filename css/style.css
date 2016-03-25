@@ -1,0 +1,98 @@
+@font-face
+{
+	font-family:nove;
+	src: url(../fonts/Novecento.ttf);
+}
+.menu
+{
+		background: url(../img/menu.png);
+		width: 20%;
+		height:100%;
+		position:fixed; 
+		overflow:auto;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(205,205,205,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(205,205,205,0.5); 
+}
+.text
+{
+	font-size:10px;
+	color:#8c8c8c;
+}
+.submenu 
+{
+	position:relative;
+	padding-left:50%;
+	top: 40px;
+	height:100%;
+	padding-right:10%;
+}
+.blocks
+{
+	height: 81%;
+	background: orange;
+}
+body{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	height:100%;
+	width:100%;
+	color: white;
+	background: #282828;
+	font-family:nove;
+}
+span
+{
+	display: inline-block;
+	height: 100%;
+}
+.main 
+{
+	padding-top:5px;
+	position:absolute;
+	z-index:-3;
+	height:100%;
+	background:#2a2a2a;
+	width:80%;
+	left:20%;
+}
+.ulmenu
+{
+	font-size:12px;
+	color: #8c8c8c;
+margin-left: 0px;
+padding:0;
+}
+.ulmenu > li {
+	width:100%;
+	padding-top:10px;
+}
+td
+{
+	text-align: center;
+}
+td > img
+{
+	width:70%;
+	height:70%;
+}
+.submain 
+{
+	
+	position:relative;
+	top:40px;
+	left:150px;
+	right:250px;
+	width: 735px;
+}
